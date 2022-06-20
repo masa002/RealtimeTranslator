@@ -2,6 +2,7 @@
 
 Installation
 ========
+Install the module from PyPI
 ```
 pip install -r requirements.txt
 ```
