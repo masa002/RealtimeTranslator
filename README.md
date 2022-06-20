@@ -58,5 +58,5 @@ Start Softalk.exe in the Softalk file to set it up.
 
 License
 ========
-MIT license, see the LICENSE file.  
+GNU General Public License v2.0, see the LICENSE file.  
 Softalk is also available for commercial use if you do not use AquesTalk.
