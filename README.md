@@ -38,9 +38,8 @@ Start Softalk.exe in the Softalk file to set it up.
 ![Softalk](./img/softalk.png)
 
 
-  - Change the location of the red circle in the image to Yamaha SYNCROOM Driver.
-  オプション->環境設定->声質  
-  (Destination language location.)
+  - Change the location of the red circle in the image to Yamaha SYNCROOM Driver.(Destination language location.)  
+  オプション->環境設定->声質
   ![Softalk](./img/setting.png)
 
 
