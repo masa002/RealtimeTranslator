@@ -4,7 +4,6 @@ import configparser
 import sys
 
 import speech_recognition as sr
-import pyaudio
 import deepl
 
 def Say(text):
