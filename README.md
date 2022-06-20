@@ -27,7 +27,7 @@ python Translate.py
 ```
 
 
-4. Stop method.　　
+4. Stop method.  
 When you say stop, it stops.
 
 
