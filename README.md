@@ -2,7 +2,5 @@
 
 Installation
 ========
+`pip install -r requirements.txt`
 
-.. code:: bash
-
-	pip install -r requirements.txt
