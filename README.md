@@ -1,9 +1,10 @@
-# RealTimeTranslate
+# RealtimeTranslate
 
 Installation
 ========
 0. If Python is not installed.  
-If you do not have Python installed, please install it.(Python 3.8 is recommended, just in case.)
+If you do not have Python installed, please install it.(Python 3.8 is recommended, just in case.)  
+[Python Download](https://www.python.org/downloads/release/python-380/)
 
 
 1. Virtual audio driver installation.  
@@ -19,7 +20,8 @@ pip install -r requirements.txt
 Usage
 ========
 1. Obtain API key for translator.  
-[Deepl API](https://www.deepl.com/pro-api?cta=header-pro-api)
+※ You must enter your credit card information, but the free version does not require payment.(As of June 21, 2022)    
+[Get Deepl API key](https://www.deepl.com/pro-api?cta=header-pro-api)
 
 2. Enter the obtained API key into the config.  
 Example : key = 12345678-9abc-def0-1234-56789abcde:fx
@@ -38,7 +40,7 @@ When you say stop, it stops.
 Config
 ========
 - Softalk language settings.
-Start Softalk.exe in the Softalk file to set it up.
+Start Softalk.exe in the softalk file to set it up.
 ![Softalk](./img/softalk.png)
 
 
@@ -53,14 +55,14 @@ Start Softalk.exe in the Softalk file to set it up.
 
   - TRANSLATE_SETTINGS
     - source_lang 	: 	The language you speak.
-    - target_lang	:	Target Language.
+    - target_lang	:	Target language.
 
   - TALK_SETTINGS -
-    - speed		:	Talk Speed.
+    - speed		:	Talk speed.
     - hide		:	Hide Softalk.
 
 
 License
 ========
 For files outside the softalk folder, the GNU General Public License v2.0 applie, see the LICENSE file.  
-Please read the README.txt file in the folder regarding the bundled Softalk.
+Please read the readme.txt file in the folder regarding the bundled softalk.
