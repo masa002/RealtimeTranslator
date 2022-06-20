@@ -2,7 +2,7 @@
 
 Installation
 ========
-0.If Python is not installed.
+0. If Python is not installed.
 If you do not have Python installed, please install it. (Python 3.8 is recommended, just in case.)
 
 
