@@ -33,7 +33,7 @@ When you say stop, it stops.
 
 Config
 ========
-- Softalk language settings.  
+- Softalk language settings.
 Start Softalk.exe in the Softalk file to set it up.
 ![Softalk](./img/softalk.png)
 
