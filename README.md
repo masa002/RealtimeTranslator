@@ -11,6 +11,7 @@ Installation
 pip install -r requirements.txt
 ```
 
+
 Usage
 ========
 1. Obtain API key for translator.  
@@ -24,6 +25,11 @@ Example : key = 12345678-9abc-def0-1234-56789abcde:fx
 ```
 python Translate.py
 ```
+
+
+4. Stop method.
+When you say stop, it stops.
+
 
 Config
 ========
