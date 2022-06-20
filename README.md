@@ -58,5 +58,5 @@ Start Softalk.exe in the Softalk file to set it up.
 
 License
 ========
-GNU General Public License v2.0, see the LICENSE file.  
-Softalk is also available for commercial use if you do not use AquesTalk.
+For files outside the softalk folder, the GNU General Public License v2.0 applie, see the LICENSE file.  
+Please read the README.txt file in the folder regarding the bundled Softalk.
