@@ -1,3 +1,1 @@
 # RealTimeTranslate
- 
-How to install
