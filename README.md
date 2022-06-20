@@ -15,13 +15,14 @@ python Translate.py
 Config
 ========
 ```
-- API_KEY
+- API_KEY -
 key 		: 	Deepl API Key.
 
-- TRANSLATE_SETTINGS
+- TRANSLATE_SETTINGS -
 source_lang 	: 	The language you speak.
 target_lang	:	Target Language.
-- TALK_SETTINGS
+
+- TALK_SETTINGS -
 speed		:	Talk Speed.
 hide		:	Hide Softalk.
 ```
