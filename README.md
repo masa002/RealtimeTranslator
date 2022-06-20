@@ -27,7 +27,12 @@ python Translate.py
 
 Config
 ========
-Configuration of config.
+- Softalk language settings.
+Start Softalk.exe in the Softalk file to set it up.
+![Softalk](./img/softalk.png)
+
+
+- Configuration of config.
 ```
 - API_KEY -
 key 		: 	Deepl API Key.
