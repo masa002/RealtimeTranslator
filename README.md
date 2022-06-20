@@ -33,9 +33,15 @@ When you say stop, it stops.
 
 Config
 ========
-- Softalk language settings.
+- Softalk language settings.  
 Start Softalk.exe in the Softalk file to set it up.
 ![Softalk](./img/softalk.png)
+
+
+オプション->環境設定->声質  
+Change the location of the red circle in the image to Yamaha SYNCROOM Driver.
+(Destination language location.)
+![Softalk](./img/setting.png)
 
 
 - Configuration of config.
