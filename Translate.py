@@ -22,8 +22,7 @@ def Say(text):
 
 def Translate(text):
     try:
-        source_lang = lang[0]
-        target_lang = lang[1]
+        target_lang = target_langs[1]
         translator = deepl.Translator(key)
 
         result = translator.translate_text(text, target_lang=target_lang).text
@@ -35,7 +34,7 @@ def Translate(text):
     Say(result)
 
 def main():
-    language = lang[0]
+    source_lang = source_langs[0]
 
     while True:
         print("Say something ...")
@@ -47,8 +46,8 @@ def main():
 
         print ("Now to recognize it...")
         try:
-            text = r.recognize_google(audio, language=language)
-            print(language + " : " + text)
+            text = r.recognize_google(audio, language=source_lang)
+            print(source_lang + " : " + text)
 
             # ストップといって終了
             if text == "ストップ" or text == "stop":
@@ -71,7 +70,16 @@ if __name__ == '__main__':
     try:
         r = sr.Recognizer()
         mic = sr.Microphone()
-        lang = []
+
+        lang = {'en-US':['en-US', 'en-US'],
+                'en-GB':['en-GB', 'en-GB'],
+                'zh-ZH':['zh', 'zh'],
+                'id-ID':['id-ID', 'ID'],
+                'de-DE':['de-DE', 'DE'],
+                'fr-FR':['fr-FR', 'FR'],
+                'it-IT':['it-IT', 'IT'],
+                'ja-JP':['ja-JP', 'JA']
+        }
 
         config = configparser.ConfigParser()
         config.read('./config.ini')
@@ -82,8 +90,8 @@ if __name__ == '__main__':
             webbrowser.open('https://www.deepl.com/pro-api?cta=header-pro-api', autoraise=True)
             sys.exit(0)
 
-        lang.append(config.get('TRANSLATE_SETTINGS', 'source_lang'))
-        lang.append(config.get('TRANSLATE_SETTINGS', 'target_lang'))
+        source_langs = lang[config.get('TRANSLATE_SETTINGS', 'source_lang')]
+        target_langs = lang[config.get('TRANSLATE_SETTINGS', 'target_lang')]
     
     except:
         print("Loading Error")
