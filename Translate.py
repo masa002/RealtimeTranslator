@@ -1,23 +1,8 @@
 import configparser
 
-import sounddevice as sd
 import pyttsx3
 import speech_recognition as sr
 import deepl
-
-sd.default.device = [6, 5] #1, 5
-print(sd.query_devices())
-
-import wave
-import numpy as np
-
-wf = wave.open("test.wav")
-fs = wf.getframerate()
-data = wf.readframes(wf.getnframes())
-data = np.frombuffer(data, dtype='int16')
-
-sd.play(data, fs)
-status = sd.wait()
 
 def Say(data):
     s.say(data)  
