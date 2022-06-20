@@ -61,5 +61,5 @@ hide		:	Hide Softalk.
 
 License
 ========
-MIT license, see the LICENSE file.
+MIT license, see the LICENSE file.  
 Softalk is also available for commercial use if you do not use AquesTalk.
