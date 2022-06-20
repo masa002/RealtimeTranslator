@@ -45,18 +45,16 @@ Change the location of the red circle in the image to Yamaha SYNCROOM Driver.
 
 
 - Configuration of config.
-```
-- API_KEY -
-key 		: 	Deepl API Key.
+  - API_KEY
+    - key 		  : 	Deepl API Key.
 
-- TRANSLATE_SETTINGS -
-source_lang 	: 	The language you speak.
-target_lang	:	Target Language.
+  - TRANSLATE_SETTINGS
+    - source_lang 	: 	The language you speak.
+    - target_lang	:	Target Language.
 
-- TALK_SETTINGS -
-speed		:	Talk Speed.
-hide		:	Hide Softalk.
-```
+  - TALK_SETTINGS -
+    - speed		:	Talk Speed.
+    - hide		:	Hide Softalk.
 
 
 License
