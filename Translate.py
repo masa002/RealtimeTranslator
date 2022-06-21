@@ -48,7 +48,7 @@ def main():
             text = r.recognize_google(audio, language=source_lang)
             print(source_lang + " : " + text)
 
-            if text == "ストップ" or text == "stop":
+            if text in stop_words:
                 subprocess.run("start ./softalk/softalk.exe /close_now", shell=True)
                 print("end")
                 break
@@ -89,6 +89,9 @@ if __name__ == '__main__':
 
         source_langs = lang[config.get('TRANSLATE_SETTINGS', 'source_lang')]
         target_langs = lang[config.get('TRANSLATE_SETTINGS', 'target_lang')]
+
+        stop_words = config.get('TALK_SETTINGS', 'stop_words').split(',')
+
     except Exception as e:
         print("Loading Error" + "\n" + str(e))
         sys.exit(0)
