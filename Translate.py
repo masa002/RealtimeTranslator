@@ -20,7 +20,7 @@ def Say(text):
         print("Softalk Error")
         return
 
-def Translate(text, target_langs):
+def Translate(text):
     try:
         target_lang = target_langs[1]
         translator = deepl.Translator(key)
@@ -33,7 +33,7 @@ def Translate(text, target_langs):
 
     Say(result)
 
-def main(source_langs, target_langs):
+def main():
     source_lang = source_langs[0]
 
     while True:
@@ -54,7 +54,7 @@ def main(source_langs, target_langs):
                 break
 
             print ("Now to translate it...")
-            Translate(text, target_langs)
+            Translate(text)
 
         except sr.UnknownValueError:
             print("could not understand audio")
@@ -93,4 +93,4 @@ if __name__ == '__main__':
     except:
         print("Loading Error")
 
-    main(source_langs, target_langs)
+    main()
