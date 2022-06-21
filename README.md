@@ -17,6 +17,12 @@ pip install -r requirements.txt
 ```
 
 
+3. Install the PyAudio from whl file.
+```
+pip install ./module/PyAudio-0.2.11-cp38-cp38-win_amd64.whl --user
+```
+
+
 Usage
 ========
 1. Obtain API key for translator.  
