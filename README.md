@@ -28,23 +28,6 @@ pip install ./module/PyAudio-0.2.11-cp38-cp38-win_amd64.whl --user
 
 
 ## SetUp
-1. Change the Discord input to Yamaha SYNCROOM Driver.  
-![Discord](./img/discord.png)
-
-
-2. Softalk language settings.
-Start SofTalk.exe in the softalk file to set it up.  
-Set the destination language.  
-![Softalk](./img/softalk.png)
-
-
-3. Softalk output settings.
-Change the location of the red circle in the image to Yamaha SYNCROOM Driver.(Destination language location.)  
-オプション->環境設定->声質  
-![Softalk](./img/setting.png)
-
-
-## Usage
 1. Obtain API key for translator.  
 ※ You must enter your credit card information, but the free version does not require payment.(As of June 21, 2022)    
 [Get Deepl API key](https://www.deepl.com/pro-api?cta=header-pro-api)
@@ -54,13 +37,30 @@ Change the location of the red circle in the image to Yamaha SYNCROOM Driver.(De
 Example : key = 12345678-9abc-def0-1234-56789abcde:fx
 
 
-3. Execution method.  
+3. Change the Discord input to Yamaha SYNCROOM Driver.  
+![Discord](./img/discord.png)
+
+
+4. Softalk language settings.
+Start SofTalk.exe in the softalk file to set it up.  
+Set the destination language.  
+![Softalk](./img/softalk.png)
+
+
+5. Softalk output settings.
+Change the location of the red circle in the image to Yamaha SYNCROOM Driver.(Destination language location.)  
+オプション->環境設定->声質  
+![Softalk](./img/setting.png)
+
+
+## Usage
+1. Execution method.  
 ```
 python Translate.py
 ```
 
 
-4. Stop method.  
+2. Stop method.  
 When you say stop, it stops.
 
 
