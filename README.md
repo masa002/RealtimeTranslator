@@ -76,6 +76,8 @@ Configuration of config.ini.
 - TALK_SETTINGS -
   - speed		:	Talk speed.
   - hide		:	Hide Softalk.
+  - stop_words : A word to say when you want to end the process.  
+  (Written as a comma-separated list)
 
 
 ## License
