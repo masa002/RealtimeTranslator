@@ -85,6 +85,7 @@ if __name__ == '__main__':
         if key == "":
             print("Please Enter the API key for deepl in the config.ini")
             webbrowser.open('https://www.deepl.com/pro-api?cta=header-pro-api', autoraise=True)
+            sys.exit(0)
 
         source_langs = lang[config.get('TRANSLATE_SETTINGS', 'source_lang')]
         target_langs = lang[config.get('TRANSLATE_SETTINGS', 'target_lang')]
