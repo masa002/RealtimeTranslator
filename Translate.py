@@ -21,8 +21,6 @@ def Say(text):
         return
 
 def Translate(text):
-    global target_langs
-    global key
     try:
         target_lang = target_langs[1]
         translator = deepl.Translator(key)
@@ -36,7 +34,6 @@ def Translate(text):
     Say(result)
 
 def main():
-    global source_langs
     source_lang = source_langs[0]
 
     while True:
