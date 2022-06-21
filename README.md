@@ -4,11 +4,11 @@ Installation
 ========
 0. If Python is not installed.  
 If you do not have Python installed, please install it.(Python 3.8 is recommended, just in case.)  
-[Python Download](https://www.python.org/downloads/release/python-380/){:target="_blank"}
+[Python Download](https://www.python.org/downloads/release/python-380/)
 
 
 1. Virtual audio driver installation.  
-[Syncroom Download](https://syncroom.yamaha.com/play/dl/){:target="_blank"}
+[Syncroom Download](https://syncroom.yamaha.com/play/dl/)
 
 
 2. Install the module from PyPI.
@@ -21,7 +21,7 @@ Usage
 ========
 1. Obtain API key for translator.  
 ※ You must enter your credit card information, but the free version does not require payment.(As of June 21, 2022)    
-[Get Deepl API key](https://www.deepl.com/pro-api?cta=header-pro-api){:target="_blank"}
+[Get Deepl API key](https://www.deepl.com/pro-api?cta=header-pro-api)
 
 2. Enter the obtained API key into the config.  
 Example : key = 12345678-9abc-def0-1234-56789abcde:fx
