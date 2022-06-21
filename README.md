@@ -65,17 +65,17 @@ When you say stop, it stops.
 
 
 ## Config
-- Configuration of config.
-  - API_KEY
-    - key 		  : 	Deepl API Key.
+Configuration of config.ini.  
+- API_KEY
+  - key 		  : 	Deepl API Key.
 
-  - TRANSLATE_SETTINGS
-    - source_lang 	: 	The language you speak.
-    - target_lang	:	Target language.
+- TRANSLATE_SETTINGS
+  - source_lang 	: 	The language you speak.
+  - target_lang	:	Target language.
 
-  - TALK_SETTINGS -
-    - speed		:	Talk speed.
-    - hide		:	Hide Softalk.
+- TALK_SETTINGS -
+  - speed		:	Talk speed.
+  - hide		:	Hide Softalk.
 
 
 ## License
