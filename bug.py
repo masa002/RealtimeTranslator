@@ -1,3 +1,4 @@
+from importlib.machinery import SOURCE_SUFFIXES
 import subprocess
 import webbrowser
 import configparser
@@ -21,6 +22,8 @@ def Say(text):
         return
 
 def Translate(text):
+    global target_langs
+    global key
     try:
         target_lang = target_langs[1]
         translator = deepl.Translator(key)
@@ -34,6 +37,7 @@ def Translate(text):
     Say(result)
 
 def main():
+    global source_langs
     source_lang = source_langs[0]
 
     while True:
@@ -79,17 +83,18 @@ if __name__ == '__main__':
         }
 
         config = configparser.ConfigParser()
-        config.read('./config.ini', 'UTF-8')
+        config.read('./config.ini')
 
         key = config.get('API_KEY', 'key')
         if key == "":
             print("Please Enter the API key for deepl in the config.ini")
             webbrowser.open('https://www.deepl.com/pro-api?cta=header-pro-api', autoraise=True)
+            sys.exit(0)
 
         source_langs = lang[config.get('TRANSLATE_SETTINGS', 'source_lang')]
         target_langs = lang[config.get('TRANSLATE_SETTINGS', 'target_lang')]
-    except Exception as e:
-        print("Loading Error" + "\n" + str(e))
-        sys.exit(0)
+        print(source_langs, target_langs)
+    except:
+        print("Loading Error")
 
     main()
