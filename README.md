@@ -7,8 +7,8 @@ This program is capable of translating and speaking your own words in real time.
 
 ## Installation
 0. If Python is not installed.  
-If you do not have Python installed, please install it.(Python 3.8 is recommended, just in case.)  
-[Python Download](https://www.python.org/downloads/release/python-380/)
+If you do not have Python installed, please install it.(Python 3.8.1 is recommended, just in case.)  
+[Python Download](https://www.python.org/downloads/release/python-381/)
 
 
 1. Virtual audio driver installation.  
