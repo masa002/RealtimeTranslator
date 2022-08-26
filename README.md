@@ -1,4 +1,4 @@
-# RealtimeTranslate
+# RealtimeTranslator
 
 
 ## What is it?
@@ -7,8 +7,8 @@ This program is capable of translating and speaking your own words in real time.
 
 ## Installation
 0. If Python is not installed.  
-If you do not have Python installed, please install it.(Python 3.8 is recommended, just in case.)  
-[Python Download](https://www.python.org/downloads/release/python-380/)
+If you do not have Python installed, please install it.(Python 3.8.1 is recommended, just in case.)  
+[Python Download](https://www.python.org/downloads/release/python-381/)
 
 
 1. Virtual audio driver installation.  
@@ -18,12 +18,6 @@ If you do not have Python installed, please install it.(Python 3.8 is recommende
 2. Install the module from PyPI.
 ```
 pip install -r requirements.txt
-```
-
-
-3. Install the PyAudio from whl file.
-```
-pip install ./module/PyAudio-0.2.11-cp38-cp38-win_amd64.whl --user
 ```
 
 
