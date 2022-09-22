@@ -1,4 +1,4 @@
-# RealtimeTranslator(ALPHA)
+# RealtimeTranslator(Alpha)
 
 
 ## What is it?
