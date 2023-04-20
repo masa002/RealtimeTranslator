@@ -75,5 +75,5 @@ Configuration of config.ini.
 
 
 ## License
-For files outside the softalk folder, the GNU General Public License v2.0 applie, see the LICENSE file.  
+For files outside the softalk folder, the BSD 3-Clause "New" or "Revised" License applie, see the LICENSE file.  
 Please read the readme.txt file in the folder regarding the bundled softalk.
